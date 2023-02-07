@@ -68,6 +68,9 @@
 
 .projectReadMore {
   font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .contactCTA {
@@ -224,7 +227,11 @@
 
 .projectsIcon {
   background-color: rgb(233, 233, 233);
-  padding: .5rem .8rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
 }
 

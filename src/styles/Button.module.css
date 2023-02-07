@@ -3,16 +3,22 @@
     background-color: var(--default-black);
     color: white;
     padding: 1rem 1.2rem;
-    border-radius: .7rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    border-radius: 7px;
     border: none;
     outline: none;
-    font-size: .75rem;
+    font-size: 1rem;
     cursor: pointer;
 }
 
 .buttonIcon {
     color: #CDA274;
-    padding-left: .5rem;
+    display: flex;
+    align-items: center;
+    /* padding-left: .5rem; */
 }
 
 .btnSecondary {
