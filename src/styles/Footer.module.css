@@ -29,11 +29,13 @@
 }
 
 .footerSocialMedia {
-    margin-top: 1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: .5rem 0;
-    /* padding-right: 30%; */
+}
+
+.footerSocialMedia>svg {
+    margin: .5rem 1rem;
 }
 
 .footerLogo {

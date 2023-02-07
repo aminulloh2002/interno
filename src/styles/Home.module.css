@@ -59,7 +59,7 @@
 
 .projectTitle {
   font-family: "DM Serif Display";
-  font-size: 1.2rem;
+  font-size: rem;
 }
 
 .projectDescription {
@@ -194,6 +194,7 @@
 
 .projectsTitle {
   font-family: "DM Serif Display";
+  font-weight: 400;
 }
 
 .projectsList {
@@ -214,7 +215,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: .5rem 0;
+  padding: .5rem .5rem;
 }
 
 .projectsDesc {
@@ -267,6 +268,7 @@
   flex-direction: column;
   align-items: center;
   padding: 0 2rem;
+  text-align: center;
 }
 
 .archievement:not(:last-child) {

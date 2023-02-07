@@ -12,6 +12,7 @@ export default function Home() {
     <>
       <Head>
         <title>Interno | Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>
         <div className={styles.hero}>
