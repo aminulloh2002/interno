@@ -1,0 +1,24 @@
+.button {
+    margin-top: .5rem;
+    background-color: var(--default-black);
+    color: white;
+    padding: 1rem 1.2rem;
+    border-radius: .7rem;
+    border: none;
+    outline: none;
+    font-size: .75rem;
+    cursor: pointer;
+}
+
+.buttonIcon {
+    color: #CDA274;
+    padding-left: .5rem;
+}
+
+.btnSecondary {
+    background-color: #CDA274 !important;
+}
+
+.btnSecondary>.buttonIcon {
+    color: var(--default-black) !important;
+}

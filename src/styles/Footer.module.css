@@ -1,0 +1,51 @@
+.footer {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width:700px) {
+    .footer {
+        padding: 0 15vw;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+    }
+}
+
+.footerHeader {
+    font-family: "DM Serif Display";
+    margin-bottom: 1rem;
+}
+
+.footerSocialMedia {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0;
+    padding-right: 30%;
+}
+
+.footerLogo {
+    height: 100%;
+    max-height: 50px;
+}
+
+.footerLogo>img {
+    width: auto;
+    height: 100%;
+}
+
+.footerList {
+    color: var(--black-secondary);
+    margin: .5rem 0;
+    cursor: pointer;
+}
+
+.footerContact>p {
+    margin: .5rem 0;
+}
+
+.copyright {
+    text-align: center;
+    margin: 1rem;
+}

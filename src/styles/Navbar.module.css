@@ -1,0 +1,67 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.navbarNav {
+    display: none;
+}
+
+.navLink {
+    margin: 1rem;
+}
+
+.navLogo {
+    width: 10rem;
+}
+
+.navigationToggle {
+    display: block;
+}
+
+.navigationToggle::focus>.navigationIcon::before {
+    display: none;
+
+}
+
+.navigationIcon {
+    position: relative;
+}
+
+.navigationIcon,
+.navigationIcon::before,
+.navigationIcon::after {
+    margin-top: .5rem;
+    width: 2rem;
+    height: 2px;
+    background-color: var(--default-black);
+    display: inline-block;
+}
+
+.navigationIcon::after,
+.navigationIcon::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.navigationIcon::after {
+    top: .8rem;
+}
+
+.navigationIcon::before {
+    top: .156rem
+}
+
+@media screen and (min-width:700px) {
+    .navbarNav {
+        display: flex;
+    }
+
+    .navigationToggle {
+        display: none;
+    }
+}
