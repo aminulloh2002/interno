@@ -73,7 +73,7 @@ export default function Home() {
             </div>
             <div className={styles.contactCTAImage}>
               <Image
-                src="/images/ContactCTA.svg"
+                src="/images/ContactCTA.png"
                 alt="cta-img"
                 width={500}
                 height={500}

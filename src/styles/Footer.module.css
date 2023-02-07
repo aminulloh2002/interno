@@ -2,13 +2,24 @@
     margin-top: 4rem;
     margin-bottom: 2rem;
     display: grid;
-    grid-template-columns: 1fr;
+}
+
+
+@media screen and (max-width:700px) {
+    .footer {
+        text-align: center;
+        grid-template-areas: 'company company'
+            'pages services'
+            'contact contact';
+    }
 }
 
 @media screen and (min-width:700px) {
     .footer {
-        padding: 0 15vw;
+        gap: 1rem;
+        grid-template-areas: 'company  pages services  contact';
         grid-template-columns: 2fr 1fr 1fr 2fr;
+        padding: 0 15vw;
     }
 }
 
@@ -20,9 +31,9 @@
 .footerSocialMedia {
     margin-top: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: .5rem 0;
-    padding-right: 30%;
+    /* padding-right: 30%; */
 }
 
 .footerLogo {
@@ -46,6 +57,26 @@
 }
 
 .copyright {
-    text-align: center;
     margin: 1rem;
+    text-align: center;
+}
+
+.company {
+    grid-area: company;
+    margin: 1rem 0;
+}
+
+.footerPages {
+    grid-area: pages;
+    margin: 1rem 0;
+}
+
+.footerServices {
+    grid-area: services;
+    margin: 1rem 0;
+}
+
+.footerContact {
+    grid-area: contact;
+    margin: 1rem 0;
 }
