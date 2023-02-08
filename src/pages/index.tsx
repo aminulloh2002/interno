@@ -306,6 +306,81 @@ export default function Home() {
           </div>
         </section>
         <section className={styles.sectionWrapper}>
+          <div className={styles.articles}>
+            <h2 className={styles.articlesTitle}>Articles & News</h2>
+            <p className={styles.articlesDescription}>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when lookings at its layouts the
+              points of using
+            </p>
+            <div className={styles.articleList}>
+              <div className={styles.articleCard}>
+                <div className={styles.articleCardBody}>
+                  <div className={styles.articleImage}>
+                    <Image
+                      src="/images/article/intart.png"
+                      alt="articleTitle"
+                      width={300}
+                      height={300}
+                    />
+                  </div>
+                  <div className={styles.articleTitle}>
+                    Let`s Get Solution Fot Building Construction Work
+                  </div>
+                </div>
+                <div className={styles.articleFooter}>
+                  <p className={styles.articleDate}>26 December 2022</p>
+                  <div className={styles.articleButton}>
+                    <FaChevronRight />
+                  </div>
+                </div>
+              </div>
+              <div className={styles.articleCard}>
+                <div className={styles.articleCardBody}>
+                  <div className={styles.articleImage}>
+                    <Image
+                      src="/images/article/kitart.png"
+                      alt="articleTitle"
+                      width={300}
+                      height={300}
+                    />
+                  </div>
+                  <div className={styles.articleTitle}>
+                    Low Cost Latest Invented Interior Designing Ideas.
+                  </div>
+                </div>
+                <div className={styles.articleFooter}>
+                  <p className={styles.articleDate}>26 December 2022</p>
+                  <div className={styles.articleButton}>
+                    <FaChevronRight />
+                  </div>
+                </div>
+              </div>
+              <div className={styles.articleCard}>
+                <div className={styles.articleCardBody}>
+                  <div className={styles.articleImage}>
+                    <Image
+                      src="/images/article/livart.png"
+                      alt="articleTitle"
+                      width={300}
+                      height={300}
+                    />
+                  </div>
+                  <div className={styles.articleTitle}>
+                    Best For Any Office & Business Interior Solution
+                  </div>
+                </div>
+                <div className={styles.articleFooter}>
+                  <p className={styles.articleDate}>26 December 2022</p>
+                  <div className={styles.articleButton}>
+                    <FaChevronRight />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className={styles.sectionWrapper}>
           <div className={styles.CTA}>
             <h1>Wanna join the interno?</h1>
             <p>its a long establishe fact will be distracted</p>

@@ -22,9 +22,9 @@
 }
 
 .btnSecondary {
-    background-color: #CDA274 !important;
+    background-color: #CDA274;
 }
 
 .btnSecondary>.buttonIcon {
-    color: var(--default-black) !important;
+    color: var(--default-black);
 }
